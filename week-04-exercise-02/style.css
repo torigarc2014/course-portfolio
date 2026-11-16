@@ -84,7 +84,8 @@ main>p {
     font-size: 16px;
     margin-bottom: 0;
     line-height: 1.6;
-    background-color: #421660;
+    background-color: #9623e2;
+    font-color: #033603;
 }
 @media (width>= 480px) {
     .collection-card {
