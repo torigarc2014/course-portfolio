@@ -84,12 +84,12 @@ main>p {
     font-size: 16px;
     margin-bottom: 0;
     line-height: 1.6;
-    color-interpolation-filters: #421660;
+    background-color: #421660;
 }
 @media (width>= 480px) {
     .collection-card {
         flex-basis: 45%;
-        
+
     }
 }
 @media (width >= 1024px) {
