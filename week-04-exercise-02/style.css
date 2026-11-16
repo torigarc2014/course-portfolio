@@ -43,12 +43,16 @@ main>p {
 
 .collection-grid {
     margin: 48px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .collection-card {
     border: 1px solid rgba(0, 0, 0, 0.25);
     background-color: #fafafa;
     padding: 16px;
+    flex: 1 1 300px;
 }
 
 .collection-card img {
