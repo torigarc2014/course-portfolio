@@ -86,6 +86,7 @@ button {
 .button-02:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border: #0e6027;
 }
 
 /* Button Style 03 - Slide Effect */
@@ -103,6 +104,7 @@ button {
     background-color: #9966CC;
     color: white;
     transform: translateY(-5px);
+    border:#0e6027
 }
 
 /* Button Style 06 - Shadow Lift */
@@ -120,6 +122,7 @@ button {
     background-color: #555555;
     box-shadow: 0 8px 15px rgba(0,0,0,0.4);
     transform: translateY(-4px);
+    border: 2px solid #8baa03;
 }
 
 /* Button Style 04 - Color Fade */
@@ -155,4 +158,5 @@ button {
     color: white;
     transform: scale(1.15);
     box-shadow: 0 5px 12px rgba(0,0,0,0.3);
+    border:#8baa03
 }
