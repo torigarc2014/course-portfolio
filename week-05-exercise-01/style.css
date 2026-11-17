@@ -150,13 +150,32 @@ button {
     padding: 12px 25px;
     border: 2px solid #06b91e;
     font-family: Arial, sans-serif;
-    transition: all 0.2s ease;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
 }
 
 .button-05 {
     background-color: #f50efd;
     color: white;
     transform: scale(1.15);
-    box-shadow: 0 5px 12px rgba(0,0,0,0.3);
+    box-shadow: 0 5px 12px rgba(11, 14, 231, 0.3);
     border:#8baa03
+}
+
+/* Button Style 06 - Grow Effect */
+.button-06 {
+    background-color: #7607e6;
+    color: white;
+    padding: 12px 25px;
+    border: 2px solid #78047c;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.button-06:hover {
+    background-color: #6b2186;
+    color: white;
+    transform: scale(1.15);
+    border-radius: 10px;
 }
