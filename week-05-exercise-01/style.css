@@ -158,7 +158,7 @@ button {
     background-color: #f50efd;
     color: white;
     transform: scale(1.15);
-    box-shadow: 0 5px 12px rgba(11, 14, 231, 0.3);
+    box-shadow: 0 5px 12px rgb(0, 0, 0);
     border:#8baa03
 }
 
@@ -167,14 +167,14 @@ button {
     background-color: #7607e6;
     color: white;
     padding: 12px 25px;
-    border: 2px solid #78047c;
+    border: 2px solid #b459b8;
     font-family: Arial, sans-serif;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
 
 .button-06:hover {
-    background-color: #6b2186;
+    background-color: #5b306b;
     color: white;
     transform: scale(1.15);
     border-radius: 10px;
