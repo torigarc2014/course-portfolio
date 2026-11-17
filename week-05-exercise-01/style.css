@@ -5,10 +5,10 @@
 }
 
 body {
-    font-family: "Times New Roman", serif;
+    font-family: "Calibri", serif;
     line-height: 2;
-    background-color: #fafafa;
-    color: #1F2937;
+    background-color: #0ae9e9;
+    color: #061427;
     padding: 32px 16px;
 }
 
@@ -86,4 +86,61 @@ button {
 .button-02:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+/* Button Style 03 - Slide Effect */
+.button-03 {
+    background: #663399;
+    color: white;
+    padding: 12px 25px;
+    border: 2px solid #6B7280;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+.button-03:hover {
+    background-color: #9966CC;
+    color: white;
+    transform: translateY(-5px);
+}
+/* Button Style 06 - Shadow Lift */
+.button-06 {
+    background: #03aa2d;
+    color: white;
+    padding: 12px 25px;
+    border: 2px solid #0439e7;
+    font-family: arial, sans-serif;
+    transition: all 0.5s ease-in-out;
+}
+.button-06:hover {
+    background-color: #555555;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.4);
+    transform: translateY(-4px);
+}
+/* Button Style 04 - Color Fade */
+.button-04 {
+    background: #8baa03;
+    color: white;
+    padding: 12px 25px;
+    border: 2px solid #e78504;
+    font-family: arial, sans-serif;
+    transition: all 0.3s linear;
+}
+.button-04:hover {
+    background-color: #FFB6C1;
+    color: #333333;
+    border: 2px solid #FF69B4;
+}
+/* Button Style 05 - Grow Effect*/
+.button-05 {
+    background: #6C3082;
+    color: white;
+    padding: 12px 25px;
+    border: 2px solid #6C3082;
+    font-family: Arial, sans-serif;
+    transition: all 0.2s ease;
+}
+.button-05 {
+    background-color: #9966CC;
+    color: white;
+    transform: scale(1.15);
+    box-shadow: 0 5px 12px rgba(0,0,0,0.3);
 }
