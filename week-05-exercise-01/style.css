@@ -145,16 +145,16 @@ button {
 /* Button Style 05 - Grow Effect*/
 
 .button-05 {
-    background: #6C3082;
+    background: #3a2cf8;
     color: white;
     padding: 12px 25px;
-    border: 2px solid #6C3082;
+    border: 2px solid #06b91e;
     font-family: Arial, sans-serif;
     transition: all 0.2s ease;
 }
 
 .button-05 {
-    background-color: #9966CC;
+    background-color: #f50efd;
     color: white;
     transform: scale(1.15);
     box-shadow: 0 5px 12px rgba(0,0,0,0.3);
